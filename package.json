@@ -1,0 +1,17 @@
+{
+  "name": "cpupower",
+  "version": "1.0.0",
+  "description": "Bindings for CPUpower proof of work used by CPUchain",
+  "main": "cpupower",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "Min Khang Aung <info@cpuchain.org>",
+  "license": "MIT",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "*",
+    "nan": "^2.7.0"
+  }
+}
